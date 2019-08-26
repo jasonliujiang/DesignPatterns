@@ -1,4 +1,4 @@
-package CreativePatterns;
+package CreativePatterns.Singleton;
 
 public class SingletonLazy {
     private static volatile SingletonLazy instance=null;    //保证 instance 在所有线程中同步
