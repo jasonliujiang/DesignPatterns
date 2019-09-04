@@ -12,7 +12,7 @@ public class CrabCookingStrategy implements ItemListener
     private CrabCooking qzx,hsx;    //大闸蟹加工者
     CrabCookingStrategy()
     {
-        f=new JFrame("策略模式在大闸蟹做菜中的应用");
+        f=new JFrame("策略模式应用");
         f.setBounds(100,100,500,400);
         f.setVisible(true);
         f.setResizable(false);

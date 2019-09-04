@@ -4,7 +4,7 @@ package StructuredPattern.proxy;
 
 
 /*
-* 代理：韶关代理
+* 代理：EVA代理
 * */
 public class SgProxy implements Specialty{
     private WySpecialty realSubject = new WySpecialty();
@@ -23,6 +23,6 @@ public class SgProxy implements Specialty{
     }
 
     private void preRequest() {
-        System.out.println("韶关代理特产开始");
+        System.out.println("代理开始");
     }
 }
