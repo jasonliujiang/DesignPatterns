@@ -1,7 +1,7 @@
 package StructuredPattern.proxy;
 
 /*
-* 抽象主题：特产
+* 抽象主题：EVA
 * */
 public interface Specialty {
     void display();

@@ -1,4 +1,5 @@
-package CreativePatterns.Prototype;
+package CreativePatterns.Prototype.Student;
+
 /*
 * 用原型模式除了可以生成相同的对象，还可以生成相似的对象
 * 用原型模式生成“三好学生”奖状

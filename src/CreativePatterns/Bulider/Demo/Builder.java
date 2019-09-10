@@ -1,4 +1,4 @@
-package CreativePatterns.Bulider;
+package CreativePatterns.Bulider.Demo;
 
 abstract class Builder {
     //创建产品对象

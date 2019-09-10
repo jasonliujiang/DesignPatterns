@@ -1,4 +1,4 @@
-package CreativePatterns.Prototype;
+package CreativePatterns.Prototype.demo;
 
 //原型模式的测试类
 public class PrototypeTest

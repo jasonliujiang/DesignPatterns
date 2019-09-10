@@ -20,7 +20,7 @@ public class ReadXML {
             } else if (args.equals("bag")) {
                 classNode = nl.item(1).getFirstChild();
             }
-            String cName = "bridge." + classNode.getNodeValue();
+            String cName = "StructuredPattern.bridge." + classNode.getNodeValue();
             Class<?> c = Class.forName(cName);
             Object obj = c.newInstance();
             return obj;

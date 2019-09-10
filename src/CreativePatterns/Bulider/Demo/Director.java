@@ -1,4 +1,4 @@
-package CreativePatterns.Bulider;
+package CreativePatterns.Bulider.Demo;
 
 public class Director {
     private Builder builder;

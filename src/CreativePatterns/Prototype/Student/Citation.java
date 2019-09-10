@@ -1,4 +1,4 @@
-package CreativePatterns.Prototype;
+package CreativePatterns.Prototype.Student;
 /*
 * 奖状类
 * 原型设计模式

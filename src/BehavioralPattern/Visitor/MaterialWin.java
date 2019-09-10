@@ -12,7 +12,7 @@ public class MaterialWin extends JFrame implements ItemListener {
     String[] select;
 
     MaterialWin() {
-        super("访问者模式设");
+        super("访问者模式设计");
         JRadioButton Art;
         JRadioButton mint;
         os = new SetMaterial();

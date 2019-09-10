@@ -1,4 +1,4 @@
-package CreativePatterns.Prototype;
+package CreativePatterns.Prototype.Extends;
 
 import java.util.*;
 /*

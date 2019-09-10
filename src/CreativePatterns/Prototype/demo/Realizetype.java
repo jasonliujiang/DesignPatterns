@@ -1,4 +1,4 @@
-package CreativePatterns.Prototype;
+package CreativePatterns.Prototype.demo;
 
 /*
 * 具体原型类
