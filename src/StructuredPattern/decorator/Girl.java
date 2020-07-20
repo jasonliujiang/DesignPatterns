@@ -4,6 +4,7 @@ public class Girl extends Changer{
     public Girl(Morrigan m) {
         super(m);
     }
+    @Override
     public void display()
     {
         setChanger();

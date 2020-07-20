@@ -60,6 +60,7 @@ public class Chessboard extends MouseAdapter {
             g.drawLine(x,y+(i*w),x+rw,y+(i*w));
         }
     }
+    @Override
     public void mouseClicked(MouseEvent e)
     {
         Point pt=new Point(e.getX()-15,e.getY()-15);

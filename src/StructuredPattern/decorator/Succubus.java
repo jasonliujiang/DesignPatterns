@@ -5,6 +5,7 @@ public class Succubus extends Changer{
     public Succubus(Morrigan m) {
         super(m);
     }
+    @Override
     public void display()
     {
         setChanger();

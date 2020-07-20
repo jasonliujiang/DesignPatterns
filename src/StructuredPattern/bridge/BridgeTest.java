@@ -16,6 +16,7 @@ interface Implementor
 //具体实现化角色
 class ConcreteImplementorA implements Implementor
 {
+    @Override
     public void OperationImpl()
     {
         System.out.println("具体实现化(Concrete Implementor)角色被访问" );
@@ -38,6 +39,7 @@ class RefinedAbstraction extends Abstraction
     {
         super(imple);
     }
+    @Override
     public void Operation()
     {
         System.out.println("扩展抽象化(Refined Abstraction)角色被访问" );
