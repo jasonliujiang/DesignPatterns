@@ -1,0 +1,30 @@
+mojito-parent.iws
+mojito-parent.ipr
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target/
+.classpath
+.project
+.settings/
+.DS_Store
+/target/
+/bin/
+*.iml
+*.sublime-*
+/build/
+logs/
+output/
+logs/
+**/target/
+.idea
+**/log.txt
+*.versionsBackup
+rebel.xml
+.rebel.xml.bak
