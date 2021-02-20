@@ -1,8 +1,12 @@
 package BehavioralPattern.Observer;
 
-public class RMBrateTest {
+/**
+ * @author liujiang
+ */
+public class RMBRateTest {
+
     public static void main(String[] args) {
-        Rate rate = new RMBrate();
+        Rate rate = new RMBRate();
         Company iCompany = new ImportCompany();
         Company eCompany = new ExportCompany();
 

@@ -1,9 +1,14 @@
 package BehavioralPattern.Observer;
 
-public class RMBrate extends Rate{
+/**
+ *
+ * @author liujiang
+ */
+public class RMBRate extends Rate {
+
     @Override
     void change(int number) {
-        for (Company obs:companyList){
+        for (Company obs : companyList) {
             obs.response(number);
         }
     }
