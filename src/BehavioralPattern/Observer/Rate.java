@@ -16,7 +16,6 @@ abstract class Rate {
     public void addCompany(Company company) {
         companyList.add(company);
     }
-
     /**
      * 删除观察者方法
      *
@@ -25,8 +24,6 @@ abstract class Rate {
     public void removeCompany(Company company) {
         companyList.remove(company);
     }
-
-
     /**
      * 通知观察者方法
      *

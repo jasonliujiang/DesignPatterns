@@ -4,7 +4,7 @@ package BehavioralPattern.Observer;
  *
  * @author liujiang
  */
-public class RMBRate extends Rate {
+class RMBRate extends Rate {
 
     @Override
     void change(int number) {
